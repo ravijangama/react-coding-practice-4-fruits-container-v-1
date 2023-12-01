@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.fruits-container {
+  background-color: #ffffff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fruit-head {
+  color: #ffd569;
+}
+.fruit-image {
+  width: 180px;
+  height: 160px;
+}
+.eat-button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 24px;
+  outline: none;
+  cursor: pointer;
+}
